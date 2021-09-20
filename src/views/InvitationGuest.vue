@@ -25,7 +25,7 @@
         </div>
       </div>
       <div v-else class="invitation__other">
-        No hay invitados
+        No hay invitados.
       </div>
     </div>
     <div class="wrapper">
