@@ -13,13 +13,13 @@ const routes = [
     path: '/invitation/:uuid',
     name: 'invitation',
     component: () => import('../views/InvitationGuest.vue'),
-    props: false,
+    props: true,
   },
 ];
 
 const router = new VueRouter({
   mode: 'history',
-  base: process.env.BASE_URL,
+  // base: process.env.BASE_URL,
   routes,
 });
 
