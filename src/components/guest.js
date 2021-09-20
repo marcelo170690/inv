@@ -88,4 +88,12 @@ export const GUESTS = [
       { name: 'Sra. Rosse Mary Gamboa' },
     ],
   },
+  {
+    uuid: 'b7525d74-19b8-11ec-9621-0242ac130002',
+    guests: [
+      { name: 'Sr. Delfin Flores Vicente' },
+      { name: 'Sra. Tania Condori Tovar' },
+      { name: 'Srta. Amelia Flores Condori' },
+    ],
+  },
 ];
