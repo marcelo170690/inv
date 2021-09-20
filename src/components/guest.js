@@ -96,4 +96,53 @@ export const GUESTS = [
       { name: 'Srta. Amelia Flores Condori' },
     ],
   },
+  {
+    uuid: '75b1e294-1a04-11ec-9621-0242ac130002',
+    guests: [{ name: 'Sr. Pedro Flores Condori' }],
+  },
+  {
+    uuid: '7d86a748-1a04-11ec-9621-0242ac130002',
+    guests: [{ name: 'Abg. Saul Flores Condori' }],
+  },
+  {
+    uuid: '9256b947-3e08-40c8-8185-b6df714fa451',
+    guests: [{ name: 'Sra. Mari Cruz Juchazara Choque' }],
+  },
+  {
+    uuid: '332fe58e-1a08-11ec-9621-0242ac130002',
+    guests: [{ name: 'Srta. Ana Isabel Juchazara Choque' }],
+  },
+  {
+    uuid: '8e2e08b4-3a96-49bb-913c-f57fcfaa8421',
+    guests: [{ name: 'Sr. Danny Choque Choque' }],
+  },
+  {
+    uuid: '3a3991cc-1a08-11ec-9621-0242ac130002',
+    guests: [
+      { name: 'Ing. Cesar Santos Mamani' },
+      { name: 'Lic. Mayde Juchazara Choque' },
+    ],
+  },
+  {
+    uuid: '3e43d610-1a08-11ec-9621-0242ac130002',
+    guests: [
+      { name: 'Sr. Roberto Paco Mamani' },
+      { name: 'Sra. Irene Choque Carlo' },
+    ],
+  },
+  {
+    uuid: '9fa4e8c6-1a09-11ec-9621-0242ac130002',
+    guests: [
+      { name: 'Ing. Edgar Colque Sanchez' },
+      { name: 'Lic. Lidia Veliz Huarachi' },
+    ],
+  },
+  {
+    uuid: '3d18e7dd-f939-4aa1-9f4a-4e41c51d2c2c',
+    guests: [{ name: 'Ing. Nelson Sanchez Ramos' }, { name: 'Lic. Rosa' }],
+  },
+  {
+    uuid: '5775be44-1a37-11ec-9621-0242ac130002',
+    guests: [{ name: 'Sr. Fabian Choque Carlo' }, { name: 'Sra. Lucy León' }],
+  },
 ];

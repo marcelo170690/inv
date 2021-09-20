@@ -1,21 +1,5 @@
 <template>
   <div>
-    <div
-      v-for="guest in guests"
-      :key="guest.uuid"
-    >
-      {{ guest.guests }}
-    </div>
+    <img src="../assets/fondo.jpg">
   </div>
 </template>
-
-<script>
-import { GUESTS } from '@/components/guest.js';
-export default {
-  data() {
-    return {
-      guests: GUESTS,
-    };
-  },
-}
-</script>

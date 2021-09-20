@@ -188,6 +188,7 @@ a {
 	font-family: 'font-cursiva-bold', Arial, sans-serif;
 	display: flex;
 	flex-direction: row;
+	color: #4b9cca;
 }
 .invitation__parents--father {
 	width: 50%;
@@ -198,9 +199,10 @@ a {
 .invitation__other {
 	font-family: 'font-cursiva-reg', Arial, sans-serif;
 	text-align: left;
-	color: #ffb62d;
+	color: #1ccc1c;
 }
 .valentin {
+	font-family: 'font-cursiva-bold', Arial, sans-serif;
 	color: #0076B8;
 }
 @-webkit-keyframes flame {
