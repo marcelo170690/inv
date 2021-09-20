@@ -1,0 +1,227 @@
+*,
+*:before,
+*:after {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	background-image: url('../assets/fondo.jpg');
+	background-repeat: no-repeat;
+	background-size: 110%;
+}
+.wrapper {
+	width: 320px;
+	height: 450px;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 500px;
+	bottom: 0;
+}
+
+.container {
+	background-color: transparent;
+	position: relative;
+	height: 360px;
+	border-radius: 8px;
+	-webkit-box-shadow: 0 30px 40px rgb(68, 52, 2, 0.3);
+	box-shadow: 0 30px 40px rgb(68, 52, 2, 0.3);
+}
+a {
+	display: block;
+	width: 100%;
+	background-color: #ffffff;
+	position: absolute;
+	bottom: 0;
+	padding: 12px 0;
+	text-align: center;
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	text-decoration: none;
+	color: #000000;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 30px 40px rgb(68, 52, 2, 0.3);
+	box-shadow: 0 30px 40px rgb(68, 52, 2, 0.3);
+}
+.cake {
+	width: 100%;
+	position: absolute;
+	bottom: 50px;
+}
+.bottom-layer,
+.top-layer,
+.middle-layer {
+	height: 80px;
+	width: 240px;
+	position: relative;
+	margin: auto;
+	background-repeat: repeat;
+	background-size: 100% 100%, 60px 100px;
+	background-position: 28px 0;
+	background-image: -o-linear-gradient(
+			transparent 50px,
+			#0076BB 50px,
+			#0076BB 60px,
+			transparent 60px
+		),
+		-o-radial-gradient(30px 5px, circle, #0076B8 30px, white 31px);
+	background-image: linear-gradient(
+			transparent 50px,
+			#0076BB 50px,
+			#0076BB 60px,
+			transparent 60px
+		),
+		radial-gradient(circle at 30px 5px, #0076B8 30px, white 31px);
+	border-radius: 10px 10px 0 0;
+}
+.middle-layer {
+	-webkit-transform: scale(0.85);
+	-ms-transform: scale(0.85);
+	transform: scale(0.85);
+	top: 72px;
+	-webkit-animation: rise-1 2s forwards;
+	animation: rise-1 2s forwards;
+}
+@-webkit-keyframes rise-1 {
+	100% {
+		top: 7px;
+	}
+}
+@keyframes rise-1 {
+	100% {
+		top: 7px;
+	}
+}
+.top-layer {
+	-webkit-transform: scale(0.7);
+	-ms-transform: scale(0.7);
+	transform: scale(0.7);
+	top: 144px;
+	-webkit-animation: rise-2 2s 2s forwards;
+	animation: rise-2 2s 2s forwards;
+}
+@-webkit-keyframes rise-2 {
+	100% {
+		top: 26px;
+	}
+}
+@keyframes rise-2 {
+	100% {
+		top: 26px;
+	}
+}
+.candle {
+	background: -o-repeating-linear-gradient(
+		45deg,
+		#fd3018 0,
+		#fd3018 5px,
+		#ffa89e 5px,
+		#ffa89e 10px
+	);
+	background: repeating-linear-gradient(
+		45deg,
+		#fd3018 0,
+		#fd3018 5px,
+		#ffa89e 5px,
+		#ffa89e 10px
+	);
+	height: 45px;
+	width: 15px;
+	position: absolute;
+	margin: auto;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	-webkit-animation: rise-3 1s 4s forwards;
+	animation: rise-3 1s 4s forwards;
+}
+@-webkit-keyframes rise-3 {
+	100% {
+		bottom: 202px;
+	}
+}
+@keyframes rise-3 {
+	100% {
+		bottom: 202px;
+	}
+}
+.candle:after {
+	content: "";
+	position: absolute;
+	height: 16px;
+	width: 16px;
+	background-color: #ffb62d;
+	border-radius: 0 50% 50% 50%;
+	-webkit-transform: scale(0) rotate(45deg);
+	-ms-transform: scale(0) rotate(45deg);
+	transform: scale(0) rotate(45deg);
+	bottom: 50px;
+	left: -0.5px;
+	-webkit-animation: flame 1.5s 5s forwards;
+	animation: flame 1.5s 5s forwards;
+}
+.invitation {
+	opacity: 0.8;
+	border-bottom-left-radius: 0.5em;
+	border-bottom-right-radius: 0.5em;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 320px;
+	background: #ffffff;
+	padding: 0.5em;
+	text-align: center;
+}
+.invitation__text {
+	padding: 0.5em;
+	text-indent: 1em;
+	font-family: 'font-cursiva-reg', Arial, sans-serif;
+}
+.invitation__text--center {
+	text-align: center;
+} 
+.invitation__parents {
+	font-family: 'font-cursiva-bold', Arial, sans-serif;
+	display: flex;
+	flex-direction: row;
+}
+.invitation__parents--father {
+	width: 50%;
+}
+.invitation__parents--mother {
+	width: 50%;
+}
+.invitation__other {
+	font-family: 'font-cursiva-reg', Arial, sans-serif;
+	text-align: left;
+	color: #ffb62d;
+}
+.valentin {
+	color: #0076B8;
+}
+@-webkit-keyframes flame {
+	100% {
+		-webkit-transform: scale(1) rotate(45deg);
+		transform: scale(1) rotate(45deg);
+	}
+}
+@keyframes flame {
+	100% {
+		-webkit-transform: scale(1) rotate(45deg);
+		transform: scale(1) rotate(45deg);
+	}
+}
+
+@font-face {
+	font-family: 'font-cursiva-reg';
+	src: url('../fonts/cursive_standard-webfont.woff');
+}
+
+@font-face {
+	font-family: 'font-cursiva-bold';
+	src: url('../fonts/cursive_standard_bold-webfont.woff');
+}
